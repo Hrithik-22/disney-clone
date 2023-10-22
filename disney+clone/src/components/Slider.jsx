@@ -41,7 +41,7 @@ function Slider() {
             <img
               key={index}
               src={IMG_BASE_URL + item.backdrop_path}
-              className="duration-100 ease-in-out hover:border-gray-400 hover:border-4 transition-all min-w-full  h-[310px] object-cover object-left-top mr-6 rounded-md"
+              className="min-w-full duration-100 ease-in-out hover:border-gray-400 hover:border-4 transition-all  h-[310px] object-cover object-left-top mr-6 rounded-md"
             />
           );
         })}
